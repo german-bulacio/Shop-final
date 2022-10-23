@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d8ae4155fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/styles/main.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Esensse</title>
 </head>
 <body>
+    <header class="container">
+        <nav class="row">
+          <div class="col-4">
+            <h1>Esensse</h1>
+          </div>
+          <div class="col-8">
+            <ul class="nav justify-content-end">
+                <li>
+                  <button id="btn-busqueda" href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                  <input type="search" id="buscarProducto" href="#">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-body" aria-current="page" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Contacto</a>
+                </li>
+                <li class="nav-item ">
+                    <button id="cesta-carrito"><i class="fa-solid fa-cart-shopping"></i><span id="contador-carrito">0</span></i></button>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <main>
+      
+        <section class="contenedor banner">
+            <img id="imgBner" class="banner__img" src="">
+            <div id="textoBner"class="banner__info">
+                <h1 class="banner__title"></h1>
+                <h2 class="banner__title"></h2>
+                <p class="banner__p"></p>
+            </div>
+        </section>
+
+    </main>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+          <h3>Carrito</h3>
+          <button id="btn-cerrar-carrito"><i class="fa-solid fa-cart-shopping"></i></button>
+          <div id="carrito-contenedor">
     
+          </div>
+          <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+        </div>
+      </div>
+    <footer>
+
+    </footer>
+
+    <script src="../src/componentes/home/banner.js" type="module"></script>   
+    <script src="../src/productos/stock.js" type="module"></script>
+    <script src="../apps.js" type="module"></script>
+    <script src="../index.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>         
 </body>
 </html>
