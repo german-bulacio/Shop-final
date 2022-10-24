@@ -1,0 +1,35 @@
+/*parrafos*/
+p {
+	font-size: 1rem !important;
+	font-weight: bold;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+	border: 5px;
+	margin: 5px;
+	padding: 5px;
+	font-family: "Mukta";
+	color: $secundario;
+}
+
+
+/*nosotros*/
+.prr1 {
+	margin: 0 0 24px 0;
+}
+
+.texto-interior {
+	font-size: 20px;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	width: 80%
+}
+
+.texto {
+	@include parrafos-importantes;
+	padding: 5%;
+	width: 90%;
+}

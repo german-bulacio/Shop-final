@@ -1,0 +1,69 @@
+.button {
+  position: relative;
+  background-color: $secundario;
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+/*boton alternativo*/
+.buttonX {
+  background-color: #190d22;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button1 {
+  font-size: 10px;
+}
+
+.button2 {
+  font-size: 12px;
+}
+
+.button3 {
+  font-size: 16px;
+}
+
+.button4 {
+  font-size: 20px;
+}
+
+.button5 {
+  font-size: 24px;
+}

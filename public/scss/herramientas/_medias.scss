@@ -1,0 +1,64 @@
+@media screen and (max-width: 769px) {
+
+  .contAms,
+  .contBms,
+  .contXMs {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .contBcms {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+
+  .tarjeta {
+    height: 285px;
+  }
+
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+.ftp {
+  width: 30%;
+  height: 30%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .contBcSm {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .cardBox {
+    width: 94.5%;
+  }
+
+  .tarjeta {
+    height: 260px;
+  }
+}
+
+.tSm {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}

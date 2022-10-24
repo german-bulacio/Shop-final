@@ -1,20 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  img {
-    object-fit: contain;
-  }
-  p {
-    line-height: 1.8;
-  }
-  select {
-    display: inline;
-    text-align: center;
-  }
-  .banner{
-    height: 450px;
+/*index banner*/
+.banner{
+    height: 500px;
     position: relative;
     background: rgb(223, 242, 246);
     display: flex;
@@ -24,12 +10,12 @@
 
 
 .banner__info{
-    padding:0,2rem;
+    padding:0 2rem;
     position: absolute;
     width: 100%;
     max-width: 700px;
     text-align: center;
-    color:pink;
+    color:$_blancofull;
     margin: auto;
 }
 .banner__title{
@@ -43,9 +29,4 @@
     opacity: 0.9;
     margin-top: 1rem;
 }
-.banner__img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.7;
-}
+

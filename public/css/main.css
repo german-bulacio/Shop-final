@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    object-fit: contain;
+  }
+  p {
+    line-height: 1.8;
+  }
+  select {
+    display: inline;
+    text-align: center;
+  }
