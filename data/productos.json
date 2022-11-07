@@ -1,0 +1,170 @@
+
+
+[
+    {
+        "id": 1,
+        "tipo":"fragancia",
+        "detalles":["Channel N5","un aroma unico"] ,
+        "precio": 15500,
+        "marca": "Channel",
+        "imagen": "./img/channel-n5.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 2,
+        "tipo":"fragancia",
+        "detalles": ["Acua di Gio","Para papa en su dia"],
+        "precio": 13500,
+        "marca": "Armani",
+        "imagen": "img/acua-gg.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 12,
+        "tipo": "fragancia",
+        "detalles": ["Absolu","El invierno se acerca"],
+        "precio": 10500,
+        "marca": "Armani",
+        "imagen": "img/absolu-gg.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 24,
+        "tipo": "fragancia",
+        "detalles": [ "Code","Unlimited"],
+        "precio": 11500,
+        "marca": "Armani",
+        "imagen": "img/code-gg.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 32,
+        "tipo": "fragancia",
+        "detalles": ["Jadore","fatale"],
+        "precio": 19500,
+        "marca": "Dior",
+        "imagen": "img/jadore.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 32, 
+        "tipo": "fragancia",
+        "detalles":["Joy","enjoy of life"],
+        "precio": 19500,
+        "marca": "Dior",
+        "imagen": "img/joy.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+
+    {
+        "id": 99,
+        "tipo": "maquillaje",
+        "detalles": ["Musa en la Sombras","Para que seas una mujer diferente"],
+        "precio": 10500,
+        "marca": "Revlon",
+        "imagen": "img/sombras-njg.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 4,
+        "tipo": "maquillaje",
+        "detalles": ["Kiss of Queens","La marca del deseo"],
+        "precio": 8500,
+        "marca": "Kiss",
+        "imagen": "img/labiales-kiss.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 63,
+        "tipo": "Maquillaje",
+        "detalles": ["Phantom of Godless","Tu imagen tallada"],
+        "precio": 10500,
+        "marca": "Kiss",
+        "imagen": "img/sombras-pm.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 53,
+        "tipo": "Maquillaje",
+        "detalles": ["She","Para ellas"],
+        "precio": 11500,
+        "marca": "Revlon",
+        "imagen": "img/pintura-un-2.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 73,
+        "tipo": "Maquillaje",
+        "detalles": ["Oreanna","fatale"],
+        "precio": 19500,
+        "marca": "Loquilla",
+        "imagen": "img/labiales-lq.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 83,
+        "tipo": "Maquillaje",
+        "detalles": ["Desseo","inborrable"],
+        "precio": 19500,
+        "marca": "Painter",
+        "imagen": "img/pintura-uñs.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+
+    {
+        "id": 63,
+        "tipo": "maquillaje",
+        "detalles": ["kiss me","Una Tentacion"],
+        "precio": 19500,
+        "marca": "Revlon",
+        "imagen": "img/labiales-rv.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    },
+  
+    {
+       "id": 5,
+       "tipo": "cuidadoDeLaPiel",
+       "detalles": ["Touch of rain","Refrescante como la lluvia"],
+       "precio": 10500,
+       "marca": "Natura",
+       "imagen": "img/crema-hp.png",
+       "cantidad":1,
+       "cantidadUnTotales":20
+    },
+
+    {
+        "id": 3,
+        "tipo": "cuidadoDeLaPiel",
+        "detalles":["Toque de vampiro","Por siempre Joven"],
+        "precio": 10500,
+        "marca": "Avon",
+        "imagen": "img/crema-td-nat.png",
+        "cantidad":1,
+        "cantidadUnTotales":20
+    }
+
+]

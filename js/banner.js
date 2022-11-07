@@ -1,5 +1,5 @@
-let banCnt = {nombreEmp:"Essense",titulo:"las mejores fragancias",subtitulo:"el mejor regalo para mama"}
-let banIms=["./public/multimedia/imagenes/channel-n5.png","./public/multimedia/imagenes/labiales-rv.png","./public/multimedia/imagenes/sombras-pm.png"]
+const banCnt = {nombreEmp:"Essense",titulo:"las mejores fragancias",subtitulo:"el mejor regalo para mama"}
+const banIms = ["./img/channel-n5.png","./img/labiales-rv.png","./img/sombras-pm.png"]
 
 let indiceImagen = 0; 
 function cambiarImagen(){

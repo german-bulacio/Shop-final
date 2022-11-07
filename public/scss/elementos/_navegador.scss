@@ -1,44 +1,9 @@
-/*nosotros parallax*/
-.sct1 {
-	left: 10%;
-	position: -webkit-sticky;
-	top: 17rem;
-	width: 25%;
-	z-index: 1111;
-}
 
-.nav1 .ul1 {
-	display: table;
-	list-style-type: none;
-	width: 100%;
-}
+  .nav-item{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
-.nav1 .li1 {
-	display: table-cell;
-	text-align: center;
-}
-
-.nav1 .li1 .a1 {
-	background-color: rgba(50, 50, 50, .2);
-	border: 2px solid #fff;
-	color: rgb(86, 7, 112);
-	font-family: "Mukta";
-	font-size: 10px;
-	padding: 10px;
-	text-decoration: none;
-}
-
-.parallax,
-.texto {
-	margin: 0 auto
-}
-
-.parallax {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 35rem;
-	max-width: 100%;
-	position: relative;
+  .navbar-brand {
+    width: 200px !important;
 }

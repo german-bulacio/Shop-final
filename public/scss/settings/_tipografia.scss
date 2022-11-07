@@ -1,2 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;600;900&family=Raleway:wght@300;500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: "Inconsolata";
+  src: url(../fonts/inconsolata.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Inconsolata";
+}

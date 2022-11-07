@@ -1,109 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/d8ae4155fd.js" crossorigin="anonymous"></script>
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="./public/css/main.css">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <title>Esensse</title>
+    <link rel="stylesheet" href="./public/css/sweetalert2.min.css">
+    <title>Essense</title>
 </head>
 <body>
-    <header class="container">
-        <nav class="row">
-          <div class="col-4">
-            <h1>Esensse</h1>
-          </div>
-          <div class="col-8">
-            <ul class="nav justify-content-end">
-                <li>
-                  <button id="btn-busqueda" href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-                  <input type="search" id="buscarProducto" href="#">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-body" aria-current="page" href="#">Sobre Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-body" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-body" href="#">Contacto</a>
-                </li>
-                <li class="nav-item ">
-                    <button id="cesta-carrito"><i class="fa-solid fa-cart-shopping"></i><span id="contador-carrito">0</span></i></button>
-                </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    <main>    
-        <section class="contenedor banner">
-            <img id="imgBner" class="banner__img" src="">
-            <div id="textoBner"class="banner__info">
-                <h1 class="banner__title"></h1>
-                <h2 class="banner__title"></h2>
-                <p class="banner__p"></p>
-            </div>
-        </section>
-        <div>
-            <h2>Productos Nuevos</h2>
+<header>
+  <header>
+    <div class="container">
+        <div class="row align-items-stretch justify-content-between">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
+                <a class="navbar-brand" href="#">Essense</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./mercaderia.html">Productos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                          </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <section class="contA contAms">
+    </div>
+</header>
 
-            <div class="flip">
-                <div class="front" style="background-image: url(multi/herramientas/cargadorx.png)">
-                    <h3 class="text-shadow">CARGADOR N16</h3>
-                </div>
-                <div class="back">
-                    <h3>Oferta</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi ips</p>
-                </div>
-            </div>
-
-            <div class="flip">
-                <div class="front" style="background-image: url(multi/herramientas/protectoresx.png)">
-                    <h3 class="text-shadow">PROTECTOR</h3>
-                </div>
-                <div class="back">
-                    <h3>Modelos Varios</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi ips</p>
-                </div>
-            </div>
-
-            <div class="flip">
-                <div class="front" style="background-image: url(multi/swft.png)">
-                    <h3 class="text-shadow">SMART WATCH</h3>
-                </div>
-                <div class="back">
-                    <h3>Ultimos!!</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae animi ips</p>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-    <div class="modal-contenedor">
-        <div class="modal-carrito">
-          <h3>Carrito</h3>
-          <button id="btn-cerrar-carrito"><i class="fa-solid fa-cart-shopping"></i></button>
-          <div id="carrito-contenedor">
-    
-          </div>
-          <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+<main>
+  <br>
+  <br>
+  <br>
+    <section class="contenedor banner">
+        <img id="imgBner" class="banner__img" src="">
+          <div id="textoBner"class="banner__info">
+          <h1 class="banner__title"></h1>
+          <h2 class="banner__title"></h2>
+          <p class="banner__p"></p>
         </div>
-      </div>
-    <footer>
-
-    </footer>
-
-    <script src="../src/componentes/home/banner.js" type="module"></script>   
-    <script src="../src/productos/stock.js" type="module"></script>
-    <script src="../apps.js" type="module"></script>
-    <script src="../index.js" type="module"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>         
+    </section>  
+    <br>
+    <br>
+   <div class="container-main">
+     <h2 class="main-title">Novedades</h2>
+     <section class="container-products">
+       <div class="product">
+        <h3 class="product__title">Las mejores Fragancias</h3>
+         <img src='./img/channel-n5.png' alt="" class="product__img">
+         <div class="product__description">
+           <h3 class="product__name">Channel-n5</h3>
+           <span class="product__price">$15000</span>
+         </div>
+         <a href="mercaderia.html" class="btn-shop">SHOP NOW</a>
+       </div>
+       <div class="product">
+        <h3 class="product__title">Maquillaje Para Reinas</h3>
+         <img src='./img/labiales-kiss.png' alt="" class="product__img">
+         <div class="product__description">
+           <h3 class="product__name">Kiss ME</h3>
+           <span class="product__price">$10000</span>
+         </div>
+         <a href="mercaderia.html" class="btn-shop">SHOP NOW</a>
+       </div>
+       <div class="product">
+        <h3 class="product__title">Cuidado de la Piel</h3>
+         <img src='./img/crema-hp.png' alt="" class="product__img">
+         <div class="product__description">
+           <h3 class="product__name">Toque de Vampiro</h3>
+           <span class="product__price">$9800</span>
+         </div>
+         <a href="mercaderia.html" class="btn-shop">SHOP NOW</a>
+       </div>
+     </section>
+     <br>
+     <br>
+     <section class="d-flex justify-content-center col-12">
+      <div id="nvos" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#nvos" data-slide-to="0" class="active"></li>
+            <li data-target="#nvos" data-slide-to="1"></li>
+            <li data-target="#nvos" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/channel-n5.png" alt="" width="900" height="400">
+              <div class="carousel-caption">
+                <h3>Un clasico</h3>
+                <p>Una fragancia unica</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img  src="/img/crema-td-nat.png" alt="" width="900" height="400">
+              <div class="carousel-caption">
+                <h3>Cuida tu piel</h3>
+                <p>Hidratate</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="/img/labiales-kiss.png" alt="" width="900" height="400">
+              <div class="carousel-caption">
+                <h3>Los mejores colores</h3>
+                <p>para dejar una marca</p>
+              </div>   
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#nvos" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#nvos" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+     </section>  
+</main>
+<footer class="main-footer">
+  <div class="footer__section">
+    <h2 class="footer__title">Nosotros</h2>
+    <p class="footer__txt">Lideres en ventas de fragancias</p>
+  </div>
+  <div class="footer__section">
+    <h2 class="footer__title">Direccion :</h2>
+    <p class="footer__txt">Av colon 1250,Cordoba,Argentina</p>
+    <h2 class="footer__title">Contact</h2>
+    <p class="footer__txt">Phone : +054 0351 8922 9987</p>
+    <p class="footer__txt">Email : Essense@example.com</p>
+  </div>
+  <div class="footer__section align-items-center"">
+    <h2 class="footer__title ></h2>
+    <a href="" class="footer__link">HOME</a>
+    <a href="" class="footer__link">NOSOTROS</a>
+    <a href="" class="footer__link">PRODUCTOS</a>
+    <a href="" class="footer__link">CONTACTO</a>
+  </div>
+  <div class="footer__section">
+    <h2 class="footer__title">Sign up for your offers</h2>
+    <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+    <input type="email" class="footer__input" placeholder="Enter your email">
+  </div>
+  <h5>pagina sin fines de lucro/german bulacio</h5> 
+</footer>
+ <script src="js/banner.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+ integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+ integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+ integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+ crossorigin="anonymous"></script>
+ <script src="js/sweetalert2.min.js"></script>
+ <script src="js/carrito.js"></script>
+ <script src="js/pedido.js"></script>
 </body>
 </html>
